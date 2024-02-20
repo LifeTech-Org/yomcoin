@@ -5,6 +5,7 @@ import "./output.css";
 export const metadata: Metadata = {
   title: "Yomcoin",
   description: "We are coming soon!",
+  icons: "/logo.png",
 };
 
 export default function RootLayout({
@@ -14,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-white">{children}</body>
+      <body className="bg-purple-100">{children}</body>
     </html>
   );
 }
